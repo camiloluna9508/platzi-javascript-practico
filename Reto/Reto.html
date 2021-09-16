@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JavaScript-Reto</title>
+</head>
+<body>
+    <header>
+        <h1>Balance Salarial</h1>
+    </header>
+    <section class="calculo">
+        <h2>Ingresos</h2>
+        <section class="caja">
+            <label for="sueldo">Ingrese su salario actual</label>
+            <input id="sueldo" type="number">
+            <label for="descuento">Paga seguridad social y pension?</label>
+            <input type="checkbox" name="Pension y Salud" id="descuento">
+            <label for="transporte">le pagan subsidio de transporte?</label>
+            <input type="checkbox" name="subsidio" id="transporte">
+        </section>
+    </section>
+    <section class="calculo">
+        <h2>Gastos</h2>
+        <section class="caja">
+            <label for="alquiler">Precio de alquiler</label>
+            <input id="alquiler" type="number">
+            <label for="alimentacion">Alimentacion</label>
+            <input id="alimentacion" type="number">
+            <label for="Facturas">Facturas de servicios</label>
+            <input id="Facturas" type="number">
+            <label for="prestamo">Prestamo con el banco?</label>
+            <input type="input" name="prestamo" id="prestamo">
+            <label for="ahorro">Quiere tener un plan de ahorro?</label>
+            <input type="checkbox" name="ahorro" id="ahorro">
+        </section>
+    </section>
+    <button class="accion" id="realizar_operaciones" onclick="procesar()" >PROCESAR</button>
+    <section class="update">
+        <p id="antesde"></p>
+        <p id="despuesde"></p>
+        <p id="ahorrofinal2"></p>
+    </section>
+    <script src="./Reto.js"></script>
+</body>
+</html>

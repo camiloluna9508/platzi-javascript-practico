@@ -1,0 +1,82 @@
+:root{
+    --segundario: azure;
+    --primario : #212F3C;
+    --terciario : #D35400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: var(--primario);
+    color: var(--segundario);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--terciario);
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+header p{
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: 700;
+}
+footer{
+    border-style: solid;
+    border-color: var(--terciario);
+    border-radius: 10px;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.nav al{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav li{
+    width: 100%;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav p{
+    font-size: 12px;
+}
+
+.nav li:hover{
+    border-color: var(--terciario);
+}
+.nav a:hover{
+    color: var(--terciario);
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+footer img{
+    width: 30%
+}

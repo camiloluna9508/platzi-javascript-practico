@@ -1,0 +1,118 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: var(terciario);
+    background-color: var(--primario);
+    color: var(--terciario);
+}
+:root{
+    --segundario: #C47C0D;
+    --primario : black;
+    --terciario : #ffffff;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+header{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 35px;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: var(--segundario);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.calculo{
+    display: grid;
+    margin-top: 20px;
+    height: 100%;
+    width: 60%;
+}
+
+.calculo h2 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: var(--segundario);
+    border-radius: 10px;
+    background-color: var(--segundario);
+    font-weight: 700;
+}
+
+.calculo .caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: var(--segundario);
+    border-radius: 15px;
+}
+
+.caja label{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.caja input{
+    margin-bottom: 10px;
+    width: 60%;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: white;
+    text-align: center;
+}
+
+.accion{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    background: #c47c0d;
+    background-color: var(--primario);
+    border-style: solid;
+    border-radius: 8px;
+    border-color: var(--segundario);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.update{
+    display: grid;
+    background-color:var(--primario);
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: var(--segundario);
+    font-size: 15px;
+    font-weight: 700;
+    width: 50%;
+}
+.update p{
+    color: var(--segundario);
+    background-color: var(--primario);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
